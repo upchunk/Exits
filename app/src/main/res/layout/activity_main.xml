@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bghome"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/Unggah Soal"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="224dp"
+        android:contentDescription="@string/unggahsoal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mkdept"
+        app:srcCompat="@drawable/unggah" />
+
+    <ImageView
+        android:id="@+id/mkdept"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="297dp"
+        android:contentDescription="@string/mkdept"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dept" />
+
+    <ImageView
+        android:id="@+id/mkupmb"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="297dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="25dp"
+        android:contentDescription="@string/mkupmb"
+        app:layout_constraintBottom_toTopOf="@+id/faqPage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/mkdept"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/upmb" />
+
+    <ImageView
+        android:id="@+id/faqPage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="224dp"
+        android:contentDescription="@string/gotofaq"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Unggah Soal"
+        app:srcCompat="@drawable/faq" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

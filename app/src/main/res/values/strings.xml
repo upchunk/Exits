@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Exits</string>
+    <string name="unggahsoal">unggahSoal</string>
+    <string name="gotofaq">gotoFaq</string>
+    <string name="mkupmb">mkUpmb</string>
+    <string name="mkdept">mkDept</string>
+</resources>
