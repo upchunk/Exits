@@ -1,7 +1,10 @@
 <resources>
     <string name="app_name">Exits</string>
-    <string name="unggahsoal">unggahSoal</string>
+    <string name="unggahSoal">unggahSoal</string>
     <string name="gotofaq">gotoFaq</string>
     <string name="mkupmb">mkUpmb</string>
     <string name="mkdept">mkDept</string>
+    <string name="login">login</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
 </resources>
